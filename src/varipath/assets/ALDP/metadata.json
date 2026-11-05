@@ -1,0 +1,480 @@
+{
+  "name": "ALDP",
+  "atoms": [
+    {
+      "index": 0,
+      "name": "H1",
+      "element": "H",
+      "residue": "ACE",
+      "residue_index": 0,
+      "mass_dalton": 1.008
+    },
+    {
+      "index": 1,
+      "name": "CH3",
+      "element": "C",
+      "residue": "ACE",
+      "residue_index": 0,
+      "mass_dalton": 12.01
+    },
+    {
+      "index": 2,
+      "name": "H2",
+      "element": "H",
+      "residue": "ACE",
+      "residue_index": 0,
+      "mass_dalton": 1.008
+    },
+    {
+      "index": 3,
+      "name": "H3",
+      "element": "H",
+      "residue": "ACE",
+      "residue_index": 0,
+      "mass_dalton": 1.008
+    },
+    {
+      "index": 4,
+      "name": "C",
+      "element": "C",
+      "residue": "ACE",
+      "residue_index": 0,
+      "mass_dalton": 12.01
+    },
+    {
+      "index": 5,
+      "name": "O",
+      "element": "O",
+      "residue": "ACE",
+      "residue_index": 0,
+      "mass_dalton": 16.0
+    },
+    {
+      "index": 6,
+      "name": "N",
+      "element": "N",
+      "residue": "ALA",
+      "residue_index": 1,
+      "mass_dalton": 14.01
+    },
+    {
+      "index": 7,
+      "name": "H",
+      "element": "H",
+      "residue": "ALA",
+      "residue_index": 1,
+      "mass_dalton": 1.008
+    },
+    {
+      "index": 8,
+      "name": "CA",
+      "element": "C",
+      "residue": "ALA",
+      "residue_index": 1,
+      "mass_dalton": 12.01
+    },
+    {
+      "index": 9,
+      "name": "HA",
+      "element": "H",
+      "residue": "ALA",
+      "residue_index": 1,
+      "mass_dalton": 1.008
+    },
+    {
+      "index": 10,
+      "name": "CB",
+      "element": "C",
+      "residue": "ALA",
+      "residue_index": 1,
+      "mass_dalton": 12.01
+    },
+    {
+      "index": 11,
+      "name": "HB1",
+      "element": "H",
+      "residue": "ALA",
+      "residue_index": 1,
+      "mass_dalton": 1.008
+    },
+    {
+      "index": 12,
+      "name": "HB2",
+      "element": "H",
+      "residue": "ALA",
+      "residue_index": 1,
+      "mass_dalton": 1.008
+    },
+    {
+      "index": 13,
+      "name": "HB3",
+      "element": "H",
+      "residue": "ALA",
+      "residue_index": 1,
+      "mass_dalton": 1.008
+    },
+    {
+      "index": 14,
+      "name": "C",
+      "element": "C",
+      "residue": "ALA",
+      "residue_index": 1,
+      "mass_dalton": 12.01
+    },
+    {
+      "index": 15,
+      "name": "O",
+      "element": "O",
+      "residue": "ALA",
+      "residue_index": 1,
+      "mass_dalton": 16.0
+    },
+    {
+      "index": 16,
+      "name": "N",
+      "element": "N",
+      "residue": "NME",
+      "residue_index": 2,
+      "mass_dalton": 14.01
+    },
+    {
+      "index": 17,
+      "name": "H",
+      "element": "H",
+      "residue": "NME",
+      "residue_index": 2,
+      "mass_dalton": 1.008
+    },
+    {
+      "index": 18,
+      "name": "C",
+      "element": "C",
+      "residue": "NME",
+      "residue_index": 2,
+      "mass_dalton": 12.01
+    },
+    {
+      "index": 19,
+      "name": "H1",
+      "element": "H",
+      "residue": "NME",
+      "residue_index": 2,
+      "mass_dalton": 1.008
+    },
+    {
+      "index": 20,
+      "name": "H2",
+      "element": "H",
+      "residue": "NME",
+      "residue_index": 2,
+      "mass_dalton": 1.008
+    },
+    {
+      "index": 21,
+      "name": "H3",
+      "element": "H",
+      "residue": "NME",
+      "residue_index": 2,
+      "mass_dalton": 1.008
+    }
+  ],
+  "constraints": [
+    {
+      "parent_index": 1,
+      "hydrogen_index": 0,
+      "length_nm": 0.10900000000000001
+    },
+    {
+      "parent_index": 1,
+      "hydrogen_index": 2,
+      "length_nm": 0.10900000000000001
+    },
+    {
+      "parent_index": 1,
+      "hydrogen_index": 3,
+      "length_nm": 0.10900000000000001
+    },
+    {
+      "parent_index": 8,
+      "hydrogen_index": 9,
+      "length_nm": 0.10900000000000001
+    },
+    {
+      "parent_index": 10,
+      "hydrogen_index": 11,
+      "length_nm": 0.10900000000000001
+    },
+    {
+      "parent_index": 10,
+      "hydrogen_index": 12,
+      "length_nm": 0.10900000000000001
+    },
+    {
+      "parent_index": 10,
+      "hydrogen_index": 13,
+      "length_nm": 0.10900000000000001
+    },
+    {
+      "parent_index": 6,
+      "hydrogen_index": 7,
+      "length_nm": 0.101
+    },
+    {
+      "parent_index": 18,
+      "hydrogen_index": 19,
+      "length_nm": 0.10900000000000001
+    },
+    {
+      "parent_index": 18,
+      "hydrogen_index": 20,
+      "length_nm": 0.10900000000000001
+    },
+    {
+      "parent_index": 18,
+      "hydrogen_index": 21,
+      "length_nm": 0.10900000000000001
+    },
+    {
+      "parent_index": 16,
+      "hydrogen_index": 17,
+      "length_nm": 0.101
+    }
+  ],
+  "body_triad": [
+    6,
+    8,
+    14
+  ],
+  "chiral_quads": [
+    [
+      6,
+      14,
+      10,
+      9
+    ]
+  ],
+  "chiral_signs": [
+    1
+  ],
+  "dihedral_quads": [
+    [
+      4,
+      6,
+      8,
+      14
+    ],
+    [
+      6,
+      8,
+      14,
+      16
+    ]
+  ],
+  "gb_kind": "GBn2",
+  "domain": "all-L",
+  "source_temperature_kelvin": 550.0,
+  "target_temperature_kelvin": 300.0,
+  "source_s": 1.0,
+  "target_s": 1.0,
+  "initial_positions_nm": [
+    [
+      [
+        -0.23920939463398752,
+        -0.37429948787455875,
+        0.012841460602257038
+      ],
+      [
+        -0.23920939463398752,
+        -0.2652994878745587,
+        0.012841460602257038
+      ],
+      [
+        -0.2905944323959812,
+        -0.22891008370069543,
+        0.10181555322516445
+      ],
+      [
+        -0.2905944323959812,
+        -0.22891008370069543,
+        -0.07613263202065038
+      ],
+      [
+        -0.09650939463398753,
+        -0.21019948787455872,
+        0.012841460602257038
+      ],
+      [
+        -0.00010939463398748046,
+        -0.2865994878745587,
+        0.012841460602257038
+      ],
+      [
+        -0.0837093946339875,
+        -0.0772994878745587,
+        0.012841460602257038
+      ],
+      [
+        -0.16595052144962993,
+        -0.01867016875781119,
+        0.012841460602257038
+      ],
+      [
+        0.046090605366012484,
+        -0.01289948787455869,
+        0.012841460602257038
+      ],
+      [
+        0.101571252855049,
+        -0.04268909679659999,
+        0.10181042684593722
+      ],
+      [
+        0.1268906053660124,
+        -0.05219948787455869,
+        -0.11035853939774297
+      ],
+      [
+        0.07308030066388996,
+        -0.022193741758133434,
+        -0.20027575859329733
+      ],
+      [
+        0.2238093285338081,
+        -0.0023898654415739355,
+        -0.10775803702172368
+      ],
+      [
+        0.14168883058220008,
+        -0.160186536749441,
+        -0.11125843147170034
+      ],
+      [
+        0.03209060536601253,
+        0.13860051212544128,
+        0.012841460602257038
+      ],
+      [
+        -0.0791093946339875,
+        0.19100051212544128,
+        0.012841460602257038
+      ],
+      [
+        0.14539060536601248,
+        0.20920051212544127,
+        0.012841460602257038
+      ],
+      [
+        0.23447501848557487,
+        0.16160883912329577,
+        0.012841460602257038
+      ],
+      [
+        0.14539060536601248,
+        0.3541005121254414,
+        0.012841460602257038
+      ],
+      [
+        0.04265276673026689,
+        0.39051392328747764,
+        0.012841460602257038
+      ],
+      [
+        0.19677564312800624,
+        0.3904899162993046,
+        0.10181555322516445
+      ],
+      [
+        0.19677564312800624,
+        0.3904899162993046,
+        -0.07613263202065038
+      ]
+    ]
+  ],
+  "bonds": [
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      14,
+      8
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      8,
+      10
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      8,
+      6
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      12
+    ],
+    [
+      10,
+      13
+    ],
+    [
+      7,
+      6
+    ],
+    [
+      14,
+      16
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      18,
+      20
+    ],
+    [
+      18,
+      21
+    ],
+    [
+      18,
+      16
+    ],
+    [
+      17,
+      16
+    ]
+  ],
+  "initialization_role": "deterministic starting structures only, explicit OpenMM Reference constraint preparation at 1e-13; not equilibrium data"
+}

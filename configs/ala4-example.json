@@ -1,0 +1,20 @@
+{
+  "molecule": "ALA4",
+  "budget_seconds": 60,
+  "endpoint_md": {
+    "platform": "CUDA",
+    "steps_per_segment": 1,
+    "warmup": 2,
+    "total_saved_per_ladder": 4
+  },
+  "sampling": {
+    "count": 4,
+    "warmup": 2,
+    "ladders": 2,
+    "states": [
+      0,
+      1
+    ],
+    "leapfrog_steps": 1
+  }
+}

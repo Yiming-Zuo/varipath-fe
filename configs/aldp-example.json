@@ -1,0 +1,14 @@
+{
+  "molecule": "ALDP",
+  "budget_seconds": 60,
+  "sampling": {
+    "count": 4,
+    "warmup": 2,
+    "ladders": 2,
+    "states": [
+      300,
+      550
+    ],
+    "leapfrog_steps": 1
+  }
+}

@@ -1,0 +1,11 @@
+include README.md LICENSE NOTICE.md pyproject.toml requirements*.txt
+recursive-include configs *.json *.md
+recursive-include tests *.py
+recursive-include src/varipath *.py *.json *.xml *.pdb *.md LICENSE* *-LICENSE
+prune .venv
+prune outputs
+prune data
+prune build
+prune dist
+prune docs
+global-exclude __pycache__ *.py[cod] .DS_Store *.log *.tmp *.pending
