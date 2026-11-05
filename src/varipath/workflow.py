@@ -25,6 +25,18 @@ from .transport import Transport
 
 def load_config(path):
     config = read_json(path) if not isinstance(path, dict) else dict(path)
+    if not isinstance(config, dict):
+        raise ValueError("配置文件顶层必须是 JSON 对象")
+    sections = ("sampling", "development", "fallback", "fit", "select", "production",
+                "prediction", "intervention", "reference", "transport", "training", "catalog",
+                "feat", "mnf", "mbar", "mechanism", "qualification", "endpoint_md",
+                "endpoint_md_qualification", "experiment", "runtime", "protection", "diagnostic_inference")
+    for section in sections:
+        if section in config and not isinstance(config[section], dict):
+            raise ValueError(f"配置 {section} 必须是 JSON 对象")
+    threads = config.get("runtime", {}).get("threads", 1)
+    if type(threads) is not int or threads < 1:
+        raise ValueError("runtime.threads 必须是正整数")
     if config.get("molecule") not in ("ALDP", "ALA4"):
         raise ValueError("配置必须指定 molecule=ALDP 或 ALA4")
     if config.get("mode", "development") not in ("development", "formal"):
@@ -58,7 +70,7 @@ def _jsonable(value):
 def _setup(config):
     if config.get("runtime", {}).get("device", "cpu") != "cpu":
         raise ValueError("当前完整工作流只验收 CPU 物理路径；不能静默改用其他设备")
-    torch.set_num_threads(int(config.get("runtime", {}).get("threads", 1)))
+    torch.set_num_threads(config.get("runtime", {}).get("threads", 1))
     return MolecularSystem(config["molecule"])
 
 
